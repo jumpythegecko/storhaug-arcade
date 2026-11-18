@@ -12,7 +12,7 @@ A key of the controls stays along the bottom of the screen in every level.
 ## Where to change things
 | To change... | Edit |
 |---|---|
-| Character names, roles, sprite colors, hats/beards/vests | `src/config/cast.js` |
+| Character roles, sprite colors, hats/beards/vests | `src/config/cast.js` |
 | Jokes: complaints, dig junk, grades, title text | `src/config/text.js` |
 | Which cabinets appear, their order, intro pages | `src/config/levels.js` |
 | A level's gameplay | `src/levels/<LevelName>.js` |

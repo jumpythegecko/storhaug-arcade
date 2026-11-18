@@ -1,5 +1,5 @@
-// THE CAST — edit this file to turn placeholders into real coworkers.
-// name: shown on cabinets and intros. title: their role. look: sprite colors and gear.
+// THE CAST — generic roles only (no employee names; the game is on a public site).
+// name: shown on the arcade screen. title: their department. look: sprite colors and gear.
 // hat: 'none' | 'hardhat' | 'beanie' | 'cap' | 'sunhat'.  beard / vest: true or false.
 SA.CAST = {
   planner: {
@@ -7,11 +7,11 @@ SA.CAST = {
     look: { hair: 0x5a3a1e, skin: 0xf2c79b, shirt: 0x587193, pants: 0x3d3f46, hat: 'none' },
   },
   surveyor: {
-    name: 'THE PARTY CHIEF', title: 'SURVEY FIELD CREW',
+    name: 'THE CREW CHIEF', title: 'SURVEY FIELD CREW',
     look: { hair: 0x9a4a1e, skin: 0xf2c79b, shirt: 0x86a126, pants: 0x5e4527, hat: 'hardhat', hatColor: 0xf4f1e8, beard: true, beardColor: 0xb05a24, vest: true },
   },
   la: {
-    name: 'THE LA', title: 'LANDSCAPE ARCHITECT',
+    name: 'THE LANDSCAPE ARCHITECT', title: 'LANDSCAPE ARCHITECTURE',
     look: { hair: 0x2a1d14, skin: 0xd9a77a, shirt: 0x86a126, pants: 0x6b5a3e, hat: 'sunhat', hatColor: 0xd8c27a },
   },
 };

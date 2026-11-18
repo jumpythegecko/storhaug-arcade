@@ -82,7 +82,7 @@ SA.Select = class extends Phaser.Scene {
     this.infoTitle.setText(SA.clean(lv.title));
     this.infoTag.setText(SA.clean(lv.tagline || ''));
     const who = lv.cast && SA.CAST[lv.cast];
-    this.infoCast.setText(who ? SA.clean('STARRING: ' + who.name + ' - ' + who.title) : '');
+    this.infoCast.setText(who ? SA.clean('STARRING: ' + who.name) : '');
     const best = lv.scene && SA.scores.best(lv.id);
     this.infoBest.setText(lv.scene ? SA.clean(best ? `BEST: ${best.name} ${best.score}` : 'BEST: NOBODY YET') : '');
   }
